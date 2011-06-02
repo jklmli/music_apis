@@ -4,9 +4,7 @@ Python 2.x (untested on Python 3.x)
 
 h2. Notes
 
-This is intended to be used as a package - otherwise the import from __init__.py in lastfm.py will break.
-Please be sure to change the default LASTFM_API_KEY in __init__.py to your own if you are planning on using the library heavily, not doing so may cause last.fm to ban your IP address for overutilizing their test key.
+This is intended to be used as a package - otherwise the import from @__init__.py@ in @lastfm.py@ will break.
+Please be sure to change the default @LASTFM_API_KEY@ in @__init__.py@ to your own if you are planning on using the library heavily, not doing so may cause last.fm to ban your IP address for overutilizing their test key.
 
 All arguments are expected to be Unicode strings.
-
-<filepath>.decode(sys.getfilesystemencoding()) may be of use to you, especially on Windows systems.
