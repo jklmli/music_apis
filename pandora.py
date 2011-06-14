@@ -18,7 +18,7 @@ import ast
 import re
 import urllib
 
-from util import getSourceCode
+from music_apis.util import getSourceCode
 
 regex_lyricIdCheckSum = re.compile('return fetchFullLyrics\((\d*), (\d*), false\)')
 regex_trackUid = re.compile('trackUid: "([^"]*)"')

@@ -18,8 +18,8 @@ import urllib
 import urllib2
 import xml.etree.ElementTree
 
-from util import getSourceCode
 from music_apis import LASTFM_API_KEY
+from music_apis.util import getSourceCode
 
 albumCache = {}
 pictureCache = {}
