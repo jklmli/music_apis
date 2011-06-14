@@ -1,4 +1,4 @@
-# Copyright (C) 2011 598074 (http://github.com/598074)
+# Copyright (C) 2011 Jiawei Li (http://github.com/jiaweihli)
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
